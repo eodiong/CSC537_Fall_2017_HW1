@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity
     {
         if(this.inputET.getText().length() > 0)
         {
+            //lol
             TextView tv = new TextView(this);
             tv.setText(this.inputET.getText().toString());
             this.svLayout.addView(tv);
